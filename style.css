@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.holidays-updation-container{
+    max-width: 1550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:10px auto ;
+    gap: 20px;
+    height: 100vh;
+    padding: 0px 10px;
+}
+.holidays {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.holidays-entries .show input{
+    padding: 5px;
+    width: 50px;
+    border-radius: 10px;
+}
+.holidays-entries .entries{
+    /* width: 100%; */
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    /* margin: 10px; */
+}
+.holidays-entries{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.h-box button{
+    background-color: brown;
+    padding: 7px;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+}
+.show{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.show-entries1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+.show-entries1 input{
+    border: none;
+    background-color: white;
+
+}
+.show-entries1 .inp{
+    text-align: right;
+}
+.show-entries1 .img{
+    display: flex;
+    background-color: white;
+}
+.show-entries1  .logo{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    color: black;
+}
+.holidays3{
+    text-align: center;
+}
+
+.previous-next{
+    display: flex;
+    justify-content: space-between;
+}
+.previous-next .btns button{
+    padding: 10px;
+    border-radius:10px;
+    background-color: white;
+    border: none;
+}
